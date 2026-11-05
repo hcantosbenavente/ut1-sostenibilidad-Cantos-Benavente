@@ -1,0 +1,11 @@
+img{
+    border-radius: 25px;
+}
+
+figure {
+    display: flex;
+}
+
+body{
+    text-align: justify;
+}
