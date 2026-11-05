@@ -1,5 +1,5 @@
 body {
-    background-image: url('..\sources\background.jpg');
+    background-image: url("../sources/background.jpg");
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -30,6 +30,15 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    color: white;
+}
+
+footer{
+    color: white;
+}
+
+a{
+    color: white;
 }
 
 .imagenPrincipal{
