@@ -56,3 +56,9 @@ a{
     display: flex;
     width: 50%;
 }
+
+.divFondo{
+    background-color: rgba(250, 235, 215, 0.404);
+    padding: 2%;
+    border-radius: 25px;
+}
