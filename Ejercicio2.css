@@ -8,14 +8,16 @@ table{
     border-radius: 25px;
     border-collapse: separate;
     border-spacing: 20px;
+    background-color: rgb(222, 198, 168);
 }
 th{
+    color: white;
     padding: 20px;
     border: 2px solid black;
     border-radius: 25px;
     text-align: center;
     font-weight: bold;
-    background-color: aquamarine;
+    background-color: #4f7a69;
 }
 td{
     padding: 20px;
@@ -28,5 +30,18 @@ caption{
     font-size: 35px;
 }
 .titulo{
-
+    background-color: #f5ecd7;
+    font-weight: bold;
+}
+.resumen{
+    background-color: #fbf6ea;   
+}
+.Dimension{
+    background-color: #dcebe2;  
+}
+.ods{
+    background-color: #dde9f2;   
+}
+.efecto{
+    background-color: #f1efe9;   
 }
