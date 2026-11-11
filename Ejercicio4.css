@@ -19,6 +19,7 @@ section{
     border-radius: 25px;
     padding: 5%;
     margin-top: 20px;
+    text-align: justify;
 }
 img{
     border-radius: 25px;
@@ -43,4 +44,10 @@ td{
 }
 .riesgo{
     background-color: rgba(8, 180, 8, 0.562);
+}
+p{
+    background-color: rgba(77, 235, 77, 0.404);
+    border-radius: 5px;
+    border-left: 10px solid green;
+    padding: 10px;
 }
