@@ -10,5 +10,37 @@ figure {
 body{
     text-align: justify;
     margin: 2%;
+    background-image: url(../SourcesEj1/FondoEjercicio1.png); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lexend', sans-serif;
 }
 
+header {
+    display: flex;
+    margin: 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+a{
+    text-decoration: none;
+    color: rgb(62, 114, 10);
+    border-radius: 50px;
+    background-color: rgba(240, 248, 255, 0.623);
+    padding: 10px;
+    border: 3px solid rgba(12, 8, 223, 0.753);
+}
+
+h1, nav{
+    width: fit-content;
+    display: flex;
+}
+
+.divFondo {
+    background-color: rgba(240, 248, 255, 0.548);
+    border-radius: 25px;
+    padding: 2%;
+}
