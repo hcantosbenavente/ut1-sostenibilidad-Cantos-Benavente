@@ -1,12 +1,27 @@
 body{
     background-image: url(../SourcesEj3/naturalezaFondo.jpg);
+    font-family: 'Lexend', sans-serif;
+    margin: 0%;
+    text-align: justify;
+}
+
+div h1 {
+    width: fit-content;
+    padding-left: 1%;
+}
+
+img{
+    border-radius: 25px;
+
 }
 
 .divFondo {
-    background-color: rgba(255, 255, 255, 0.473);
+    background-color: rgba(255, 255, 255, 0.644);
     border-radius: 25px;
     padding: 2%;
 }
-div h1,{
+
+#iberdrola{
     display: flex;
+    justify-content: flex-start;
 }

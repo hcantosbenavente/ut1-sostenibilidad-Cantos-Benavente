@@ -1,25 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 3</title>
     <link rel="stylesheet" href="css/Ejercicio3.css">
+
+     <!--Esta parte del codigo es para poder usar la letra en el formato LEXEND, importando la libreria de fuetnes de Google, esto lo tubimos que buscar en google ya que no sabiamos como se ponia-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="divFondo">
-            <div>
-                <h1 class="inicio">Iberdrola</h1>
+        <div class="divFondo"
+        style="margin: 2%;">
+            <div id="iberdrola">
                 <img src="SourcesEj3/Iberdrola-Logo.png" alt="Logo de Iberdrola"
                 style="width: 5%;" class="inicio">
+                <h1 class="inicio">Iberdrola</h1>
             </div>
             <div>
                 <p>
-                    <strong>Nombre:</strong> Iberdrola
+                    <strong>Nombre:</strong> Iberdrola <br>
+                    <strong>Sector:</strong> Energía eléctrica, energías renovables y redes eléctricas <br>
+                    <strong>Sede: </strong> Bilbao, España <br>
+                    <strong>Numero empleados:</strong> 45.400 aproximadamente <br>
+                    <strong>Actividad:</strong> Produce y distribuye electricidad, desarrolla parques eólicos y solares y gestiona redes eléctricas
                 </p>
             </div>
         </div>
     </header>
+    <main>
+        <article>
+            <div
+            style="background-image: url(../ut1-sostenibilidad-Cantos-Benavente/sources/background.jpg);
+            padding: 2%;">
+                <section id="criterios_ASG">
+                    <div class="divFondo">
+                        <h2>Analisis de los criterios ASG</h2>
+                        <div>
+                            <h3>Ambientales (A)</h3>
+                            <img src="SourcesEj3/Molinos.jpg"
+                                alt="Explanada con Molinos de viento" 
+                                style="height: 28vh;">
+                            <img src="SourcesEj3/PlacasSolares.jpg" alt="Explanada con placas solares"
+                                style="height: 28vh; margin-inline: 25px;">
+                            <img src="SourcesEj3/presa-2.jpg" alt="Presa de iberdorla"
+                                style="height: 28vh;">
+                        </div>
+                        <div
+                        style="width: 66%;">
+                            <ol>
+                                <li>
+                                    <strong>Energias renovables:</strong> Invierte en parques eólicos, solares e instalaciones hidroeléctricas para producir electricidad con menos emisiones.
+                                </li>
+                                <li>
+                                    <strong>Reduccion de emisiones</strong> Busca reducir su huella de carbono y aumentar la producción de electricidad procedente de fuentes limpias. En 2025, el 85 % de su capacidad instalada estaba libre de emisiones.
+                                </li>
+                                <li>
+                                    <strong>Protección del medio ambiente:</strong> Desarrolla iniciativas para proteger la biodiversidad y reducir el impacto de sus instalaciones sobre los ecosistemas naturales.
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+    </main>
 </body>
 </html>
