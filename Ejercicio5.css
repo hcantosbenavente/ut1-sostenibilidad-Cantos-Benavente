@@ -1,0 +1,105 @@
+body{
+    margin: 40px;
+    background-image: url(../ut1-sostenibilidad-Cantos-Benavente/SourcesEJ2/fondo4.png);
+    background-attachment: fixed;
+    color:black;
+}
+header{
+    background-color: rgba(255, 255, 255, 0.61);
+    border-radius: 25px;
+    padding: 10px;
+    margin:auto;
+    width: fit-content;
+}
+main{
+    margin-top: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+section{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 25px;
+    padding: 5%;
+    margin-top: 20px;
+    text-align: justify;
+}
+img{
+    border-radius: 25px;
+    display: block;
+    margin: 5px auto;
+    width: 100%;
+}
+h2{
+    font-weight: bold;
+    text-align: center;
+    text-shadow: green 0px 0px 10px;
+}
+h3{
+    font-weight: bolder;
+    border-bottom: 2px solid black;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: auto;
+}
+td{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    font-size: smaller;
+    background-color: rgba(197, 119, 55, 0.529);
+}
+td:nth-child(1){
+    background-color: grey;
+}
+p{
+    background-color: rgba(77, 235, 77, 0.404);
+    border-radius: 5px;
+    border-left: 7px solid green;
+    padding: 10px;
+}
+summary{
+    background-color: rgba(3, 163, 255, 0.404);
+    border-radius: 5px;
+    border-left: 7px solid rgb(8, 101, 163);
+    padding: 10px;
+    transition: transform 0.3s ease;
+    margin-top: 10px;
+    font-weight: bold;
+}
+summary:hover{
+    transform: scale(1.1);
+}
+summary~p{
+    margin-top: 10px;
+}
+a{
+    color: black;
+    font-weight: bold;
+}
+li:hover{
+    transform: scale(1.1);
+    transform: translateX(10px);
+}
+li{
+    transition: transform 0.3s ease;
+    width:fit-content
+}
+caption{
+    color: white;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+    background-color: rgb(1, 60, 123);
+}
+th{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(121, 239, 105);
+}
