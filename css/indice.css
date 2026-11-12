@@ -44,6 +44,7 @@ a{
 .imagenPrincipal{
     border-radius: 50px;
     border: 2px dotted black;
+    margin-left: 2%;
 }
 
 .divFoto{
