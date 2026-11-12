@@ -1,7 +1,7 @@
 body{
     margin: 40px;
     background-image: url(../ut1-sostenibilidad-Cantos-Benavente/SourcesEJ2/fondo4.png);
-    color:black
+    color:black;
 }
 header{
     background-color: rgba(255, 255, 255, 0.61);
@@ -59,6 +59,7 @@ summary{
     padding: 10px;
     transition: transform 0.3s ease;
     margin-top: 10px;
+    font-weight: bold;
 }
 summary:hover{
     transform: scale(1.1);
@@ -70,4 +71,11 @@ a{
     color: black;
     font-weight: bold;
 }
-
+li:hover{
+    transform: scale(1.1);
+    transform: translateX(10px);
+}
+li{
+    transition: transform 0.3s ease;
+    width:fit-content
+}
