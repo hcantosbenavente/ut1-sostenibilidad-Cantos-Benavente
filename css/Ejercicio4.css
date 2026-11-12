@@ -2,6 +2,9 @@ body{
     margin: 40px;
     background-image: url(../SourcesEJ2/fondo4.png);
     color:black;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header{
     background-color: rgba(255, 255, 255, 0.61);
