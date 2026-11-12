@@ -1,0 +1,56 @@
+body{
+    margin: auto;
+    align-items: center;
+    background-image: url("../ut1-sostenibilidad-Cantos-Benavente/SourcesEJ2/fondo.png");
+}
+table{
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    border-collapse: separate;
+    border-spacing: 20px;
+    background-color: rgba(255, 254, 253, 0.542);
+}
+th{
+    color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4f7a69;
+}
+td{
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: justify;
+}
+caption{
+    border: 2px solid black;
+    border-radius:25px;
+    margin:20px auto;
+    font-size: 35px;
+    width:fit-content;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+.titulo{
+    background-color: #f5ecd7;
+    font-weight: bold;
+}
+.resumen{
+    background-color: #fbf6ea;   
+}
+.Dimension{
+    background-color: #dcebe2;  
+}
+.ods{
+    background-color: #dde9f2;   
+}
+.efecto{
+    background-color: #f1efe9;   
+}
+td:nth-child(3){
+    text-align: center;
+}
